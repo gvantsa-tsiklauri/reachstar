@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+.main-div{
+    width: 1440px;
+    height: 1024px;
+    padding-top: 33px;
+    padding-left: 51px;
+}
+.dashboard-div{
+    max-width: 121px;
+}
+.title-text{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+}
+.boxes{
+    width: 1326px;
+    height: 220px;
+    display: flex;
+    margin-top: 22px;
+}
+.task-box{
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    border: 1px solid #DCDCDC;
+    background-color: #FAFAFA;
+    padding-left: 25px;
+    display: flex;
+}
+.overdue-box{
+    margin-left: 41px;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    border: 1px solid #FF9D9D;
+    background-color: #FFEDED;
+    padding-left: 25px;
+    display: flex;
+}
+.done-box{
+    margin-left: 46px;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    border: 1px solid #FFDE9D;
+    background-color: #FFFAED;
+    padding-left: 25px;
+    display: flex;
+
+}
+.member-box{
+    margin-left: 39px;
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+    border: 1px solid #9DADFF;
+    background-color: #EDF6FF;
+    padding-left: 25px;
+    display: flex;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    max-height: 32px;
+    position: absolute;
+}
+.number{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 84.72px;
+    margin-top: 62px;
+    position: absolute;
+    margin-left: 0;
+}
+.see-more{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    color: #5076FF;
+    margin-top: 170px;
+    margin-left: 180px;
+}
+.activity-div{
+    margin-top: 48px;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid #DADADA;
+}
+tr{
+    border: 1px solid #DADADA;
+}
+th{ background-color: #F9F9F9;
+    border: 1px solid #DADADA;
+}
+td{
+    text-align: center;
+    background-color: white;
+    border: 1px solid #DADADA;
+}
+.th1{
+    width: 73px;
+    height: 57px;
+}
+.th2{
+    padding-left: 23px;
+    width: 614px;
+    text-align: left;
+}
+.th3{
+    width: 276px;
+}
+.th4{
+    width: 368px;
+}
+.word{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18.15px;
+}
+.word1{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18.15px;
+}
+.td2{
+    text-align: left;
+    padding-left: 23px;
+}
